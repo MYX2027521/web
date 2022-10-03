@@ -1,0 +1,87 @@
+.main {
+	width: auto;
+	height: auto;
+	margin-top: 3%;
+	display: flex;
+	/*设置弹性布局*/
+	flex-direction: row;
+	/* 设置主轴方向 */
+	flex-wrap: wrap;
+	/*
+	*项目换行，第一行在最上方
+	*/
+	justify-content: center;
+	/* 设置项目在主轴的对齐方式 */
+}
+
+.course {
+	width: 700px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+	transition: all 0.3s;
+}
+
+img {
+	width: 187px;
+	height: 211px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+del {
+	color: #a5a5a5;
+	margin: 0 3px 0 3px;
+}
+
+.course-read-book {
+	margin-left: 1px;
+	width: 240px;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.course-read-container {
+	width: 360px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	/*
+	*项目垂直排布
+	*/
+	justify-content: space-around;
+}
+
+.main-course-font-style {
+	font-weight: 800;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+}
+
+.main-course-price-style {
+	font-weight: 800;
+	font-size: 18px;
+	color: #3b81ff;
+}
+
+.main-course-deal-style {
+	display: inline-flex;
+	padding-left: 2px;
+	width: 70px;
+	height: auto;
+	color: #ffffff;
+}
+
+.colo-style {
+	/*设置渐变色*/
+	background-image:
+		/*to 指向*/
+		linear-gradient(to right, #0778ea, #53d0f6);
+}
