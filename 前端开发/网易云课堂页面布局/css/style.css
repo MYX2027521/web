@@ -1,0 +1,245 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "Microsoft Yahei";
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+header {
+	width: 1899px;
+	height: 80px;
+	background: #64986c;
+	position: relative;
+}
+
+header::after {
+	width: 100%;
+	height: 7px;
+	background: #c1e9ed;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+header .wrap {
+	margin: 0 auto;
+	width: 1200px;
+	height: 73px;
+	position: relative;
+	z-index: 1;
+}
+
+header .wrap img {
+	margin-top: 15px;
+}
+
+header .wrap nav {
+	float: right;
+}
+
+header .wrap nav a {
+	display: block;
+	font-weight: 800;
+	float: left;
+	width: 167px;
+	height: 73px;
+	line-height: 73px;
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+}
+
+header .wrap nav a:nth-of-type(1) {
+	widows: 113px;
+	background: #517d66;
+}
+
+header .wrap nav a:nth-of-type(2) {
+	background: #76988e;
+}
+
+header .wrap nav a:nth-of-type(3) {
+	background: #6a8daa;
+}
+
+header .wrap nav a:nth-of-type(4) {
+	background: #90ad70;
+}
+
+header .wrap nav a:nth-of-type(5) {
+	background: #60a092;
+}
+
+header nav a:hover,
+.active {
+	padding-bottom: 7px;
+}
+
+/* //////////////////////////////// */
+.banner {
+	width: 100%;
+	height: 537px;
+	background-color: #8fc0af;
+}
+
+.banner ul {
+	width: 1400px;
+	height: 454px;
+	margin: 0 auto;
+	position: relative;
+	top: 43px;
+}
+
+.banner ul li {
+	width: 640px;
+	height: 300px;
+	text-align: center;
+	position: absolute;
+}
+
+
+.banner .right {
+	top: 80px;
+	right: 0;
+	background: url(../banner/banner3.jpg) no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 3px 2px 3px 0px rgba(16, 5, 10, 0.48);
+}
+
+.banner .left {
+	left: 0;
+	top: 80px;
+	background: url(../banner/banner2.jpg) no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 3px 2px 3px 0px rgba(16, 5, 10, 0.45);
+}
+
+.banner .center {
+	width: 950px;
+	height: 450px;
+
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+	/*移动自身的一半*/
+	box-shadow: 4px 2px 4px 0px rgba(16, 5, 10, 0.57);
+	border: solid 3px #ffffff;
+	background: url(../banner/banner1.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 1;
+}
+
+.banner ul li img {
+	position: absolute;
+	height: 100%;
+	left: -30%;
+
+}
+
+/* ////////////////////////////// */
+.main {
+	height: 500px;
+	background: #f6f6f7;
+}
+
+.main .bg-center {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main aside {
+	float: left;
+	width: 538px;
+}
+
+.main h1 {
+	font-size: 24px;
+	margin-bottom: 24px;
+	height: 58px;
+	line-height: 58px;
+}
+
+.mian h1 span {
+	color: #2c714f;
+}
+
+.main dl {
+	width: 474px;
+	height: 87px;
+	margin-bottom: 14px;
+}
+
+.main dl dt {
+	width: 52px;
+	float: left;
+	margin-right: 14px;
+	margin-top: 14px;
+}
+
+.main dl dd {
+	float: left;
+	width: 389px;
+}
+
+.main dl dd:first-of-type {
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-family: "Microsoft Yahei";
+}
+
+.main dl dd:last-of-type {
+	font-size: 13px;
+}
+
+.main article {
+	float: left;
+	width: 662px;
+}
+
+.main article .choose {
+	margin-top: 62px;
+}
+
+.main article .choose a:hover {
+	color: #64986c;
+}
+
+
+footer {
+	height: 72px;
+	background: #6a9766;
+}
+
+footer a {
+	color: #fff;
+	display: block;
+	float: left;
+	margin-left: 60px;
+	height: 72px;
+	line-height: 72px;
+	font-size: 15px;
+}
+
+footer .icon {
+	margin-right: 278px;
+	float: right;
+	width: 189px;
+}
+
+footer .icon img {
+	opacity: 0.8;
+	/*透明度*/
+	margin: 18px 9px;
+}
